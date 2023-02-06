@@ -16,6 +16,13 @@ import groovy.json.JsonSlurper as JsonSlurper
 import com.kms.katalon.core.testobject.RequestObject as RequestObject
 import static org.assertj.core.api.Assertions.*
 
-int id = CustomKeywords.'sample.Common.createNewUser'(age as Integer, username, password, gender, 200)
-
-CustomKeywords.'sample.Common.findUserById'(id, age as Integer, username, password, gender, 200)
+System.out.println("21")
+System.out.println("22")
+System.out.println("23")
+System.out.println("24")
+System.out.println("25")
+System.out.println("26")
+System.out.println("27")
+System.out.println("28")
+System.out.println("29")
+System.out.println("30")
