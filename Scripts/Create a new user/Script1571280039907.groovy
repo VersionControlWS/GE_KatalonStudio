@@ -13,5 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-System.out.println("Working Perfect")
-println("Working Perfect")
+
+
+System.out.println("A Working Perfect")
+CustomKeywords.'sample.Common.createNewUser'(age as Integer, username, password, gender, 200)
+println("B Working Perfect")
