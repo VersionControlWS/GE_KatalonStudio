@@ -18,8 +18,13 @@ System.out.println("2")
 System.out.println("3")
 System.out.println("4")
 System.out.println("5")
+try {
+WebUI.openBrowser('https://staging.peppertree.ai/')
+}finally {
+WebUI.closeBrowser()
 System.out.println("6")
 System.out.println("7")
 System.out.println("8")
 System.out.println("9")
 System.out.println("10")
+}
